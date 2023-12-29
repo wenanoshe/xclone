@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #cbdfe1;
+  --background-start: #020617;
+  --background-end: #0f172a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #cbdfe1;
+    --background-start: #020617;
+    --background-end: #0f172a;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: linear-gradient(
+      135deg,
+      var(--background-start),
+      var(--background-end),
+      var(--background-start)
+    )
+}
