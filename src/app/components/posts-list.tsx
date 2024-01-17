@@ -1,6 +1,7 @@
 import PostCard from './post-card'
+import {type Posts} from '../types/posts'
 
-export function PostsList ( {posts}) {
+export function PostsList ({ posts }: { posts: Posts[]}) {
     return (
         posts?.map(post => (
             <PostCard 

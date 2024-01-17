@@ -36,15 +36,6 @@ export default function PostCard({userName, userFullName, avatarUrl, content} :P
             <button>
                 <IconMessageCircle className="h-4 h-4"/>
             </button>
-            {/*<div className="flex gap-1">
-                <p className="font-bold">0</p>
-                <p className="">Following</p>
-            </div>
-            <div className="flex gap-1">
-                <p className="font-bold">0</p>
-                <p className="">Followers</p>
-            </div>*/}
-
         </div>
 	</div>
   )

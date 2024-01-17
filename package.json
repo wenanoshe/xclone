@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen:types": "npx supabase gen types typescript --project-id ffiarmouksxnwfaruvhc > ./src/app/types/database.ts"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.8.7",
